@@ -1,20 +1,55 @@
-
+html, body {
+    height: max-content;;
+}
 header{
     height: 5vh;
     padding: 10px;
     background-color: rgb(41, 40, 40);
 }
 main{
-    height: 90vh;
-}
-footer{
-    height: 4vh;
+    height: 95%;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 100%;
+}
+section {
+    padding: 10px;
+}
+p{
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #707070;
+}
+h1{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1.2em;
+    color:#707070;
+    padding: 10px 0 10px 0;
+    font-weight: 500;
+}
+h2{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color:#707070;
+    padding: 10px 0 10px 0;
+}
+h3{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 2.3em;
+    font-weight: bold;
+    color:#707070;
+    padding: 10px 0 10px 0;
+}
+
+.subtitle{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight:450;
+    color:#707070;
+    padding: 10px 0 10px 0;
 }
 .main-nav {
     display: flex;
@@ -26,12 +61,81 @@ nav{
     height: 140%;
     width: auto;
 }
+
 .nav-item {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     text-decoration: none;
     color: white;
 }
+#sobremim-section{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+    #sobremim {
+        flex-direction: column;
+    }
+}
+.centralizado {
+    margin: 0 auto;
+}
+@media screen and (min-width: 1200px) {
+    .responsive-section {
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 900px){
+    .responsive-section {
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 400px){
+    .responsive-section {
+        width: 80vw;
+    }
+    #nav-logo {
+        display: none;
+      }
+}
 #spacer{
-    height: 35%;
-    background-color: gray;
+    height: 35vh;
+    background-color: #dcdcdc;
+}
+#avatar-container{
+    position: relative;
+    top: -85px;
+    height: 85px;
+    margin: 0 auto;
+}
+#main-avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#introducao-container{
+
+}
+#habilidades-tecnicas-lista{
+    display: flex;
+    justify-content: space-evenly;
+}
+.habilidades-tecnicas-elemento{
+    text-align: center;
+}
+.title-section
+{
+
+}
+.texto-centralizado{
+    text-align: center;
+}
+.gray-section{
+    background-color: #dcdcdc;
+
+}
+.logo-habilidade{
+    width: 60px;
+    height: 50px;
 }
