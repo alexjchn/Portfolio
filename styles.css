@@ -1,0 +1,37 @@
+
+header{
+    height: 5vh;
+    padding: 10px;
+    background-color: rgb(41, 40, 40);
+}
+main{
+    height: 90vh;
+}
+footer{
+    height: 4vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#nav-logo {
+    border-radius: 50%;
+    height: 140%;
+    width: auto;
+}
+.nav-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#spacer{
+    height: 35%;
+    background-color: gray;
+}
