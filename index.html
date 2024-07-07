@@ -10,7 +10,8 @@
   <body>
     <header>
       <nav>
-        <img id="nav-logo" src="imagens/avatar.jpg" />
+        <img id="nav-logo" src="imagens/avatar.jpg" alt="" />
+       
         <ul class="main-nav">
           <li><a class="nav-item" href="#sobremim-section">Apresentação</a></li>
           <li><a class="nav-item" href="#habilidades">Habilidades</a></li>
@@ -30,23 +31,23 @@
             src="imagens/avatar.jpg"
             alt="Eu"
           />
+          <div id="avatar-redes-sociais">
+            <a href="https://www.facebook.com/alexjchn/"> <img src="imagens/facebook.png" alt="" class="image-contato"></a> 
+            <a href="https://www.linkedin.com/in/alexanderchn"> <img src="imagens/linkedin-circle.png" alt="" class="image-contato"></a> 
+            <a href="https://github.com/alexjchn/"> <img src="imagens/github.png" alt="" class="image-contato"></a> 
+        </div>
         </div>
         <div id="introducao-container">
           <h3>Alexander Chinea</h3>
           <article>
-            <h2 class="subtitle">Apresentação</h2>
+            <br>
             <p>
               Olá sou Alexander Chinea, mas você pode me chamar de Alex se
-              preferir.
-            </p>
-            <p>
-              Sou um desenvolvedor full stack em processo y que estou totalmente
+              preferir. Sou um desenvolvedor full stack em processo y que estou totalmente
               apaixonado pela programação em geral, incluindo Desenvolvimento
               web, Software Empresarial e jogos.
             </p>
-          </article>
-          <article>
-            <h2 class="subtitle">Estudos e Objetivos</h2>
+            <br>
             <p>
               Atualmente estou realizando um curso de Front End na Toti
               Diversidade, mas previamente já tinha feito outros cursos na area
@@ -56,12 +57,14 @@
               então tive que aprender algumas linguagens especificas
               principalmente C++ e C#.
             </p>
+            <br>
           </article>
         </div>
       </section>
       <section id="habilidades-section" class="gray-section">
         <div id="habilidade-container" class="responsive-section centralizado">
           <h2>Habilidades</h2>
+          <hr>
           <article>
             <h1 class="texto-centralizado">Habilidades Técnicas</h1>
             <ul id="habilidades-tecnicas-lista">
@@ -218,19 +221,19 @@
                     <p> Você também pode me encontrar nas seguintes redes sociais:</p>
                 </li>
                 <li><div id="redes-sociais-contato">
-                    <a href="https://www.facebook.com/alexjchn/"><img src="imagens/facebook.png" alt="" class="image-contato"></a> 
-                    <a href="https://www.linkedin.com/in/alexanderchn"><img src="imagens/linkedin-circle.png" alt="" class="image-contato"></a> 
+                    <a href="https://www.facebook.com/alexjchn/"> <img src="imagens/facebook.png" alt="" class="image-contato"></a> 
+                    <a href="https://www.linkedin.com/in/alexanderchn"> <img src="imagens/linkedin-circle.png" alt="" class="image-contato"></a> 
 
                 </div></li>
             </ul>
           </div>
           <form class="form-container" >
             <label for="fnome">Nome:</label>
-            <input type="text" id="fnome" name="fname">
+            <input type="text" id="fnome" name="fnome">
             <label for="femail">E-mail:</label>
-            <input type="email" name="email" id="">
+            <input type="email" name="femail" id="femail">
             <label for="fassunto">Assunto:</label>
-            <input type="text" name="fasssunto" id="fassunto">
+            <input type="text" name="fassunto" id="fassunto">
             <label for="fcontent">Mensagem</label>
             <input type="text" name="fcontent" id="fcontent">
             <a href="mailto:alexjchn@gmail.com" class="button-dark">Enviar</a>

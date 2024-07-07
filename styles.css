@@ -196,15 +196,20 @@ footer{
     width: 32px;
     height: 32px;
 }
-
+.centralizado {
+    margin: 0 auto;
+}
+#avatar-redes-sociais{
+    position: relative;
+    top: -16.5px;
+    text-align: center;
+}
 @media screen and (max-width: 1200px) {
     #sobremim-section {
         flex-direction: column;
     }
 }
-.centralizado {
-    margin: 0 auto;
-}
+
 @media screen and (min-width: 1200px) {
     .responsive-section {
         width: 50vw;
